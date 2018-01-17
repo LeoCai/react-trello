@@ -32,8 +32,7 @@ export const Section = styled.section`
   margin: 5px 5px;
   padding: 10px;
   min-width: 250px;
-  height: auto;
-  max-height: 95%;
+  height: 95%;
   overflow-y: auto;
 `
 

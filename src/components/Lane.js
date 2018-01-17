@@ -169,7 +169,7 @@ class Lane extends Component {
     }
 
     return connectDropTarget(
-      <div>
+      <div style={{height:'95%', overflowY:'auto'}}>
         <DraggableList>{cardList}</DraggableList>
         {editable && !addCardMode && this.renderAddCardLink()}
         {addCardMode && this.renderNewCard()}
